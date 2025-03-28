@@ -1,5 +1,5 @@
 function generateStars(rating) {
-    const fullStars = Math.floor(rating || 0); // Default to 0 if rating is missing
+    const fullStars = Math.floor(rating || 0);  // Hypertek sitesindeki ürün kartlarında beliren toplam Değerlendirme verisini API cevabında bulamadım
     const starsHtml = Array.from({ length: 5 }, (_, i) =>
         i < fullStars
             ? '<i class="bi bi-star-fill text-warning"></i>'
