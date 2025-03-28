@@ -98,6 +98,13 @@ ul.breadcrumb li a:hover {
     justify-content: space-between;
 }
 
+@media screen and (max-width: 768px) {
+    .category-button {
+        width: 100%;
+    }
+    
+}
+
 /* Sticky Nav Banner */
 .wrap {
     background: white;
