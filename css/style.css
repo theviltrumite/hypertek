@@ -21,6 +21,30 @@ ul.breadcrumb {
     list-style: none;
 }
 
+@media screen and (min-width: 992px) {
+    ul.breadcrumb {
+        padding-left: 300px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    ul.breadcrumb {
+        padding-left: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    ul.breadcrumb {
+        padding-left: 100px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    ul.breadcrumb {
+        padding-left: 20px;
+    }
+}
+
 ul.breadcrumb li {
     display: inline;
     font-size: 18px;
