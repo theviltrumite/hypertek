@@ -14,7 +14,7 @@ function createProductCard(product) {
             <div class="hover-overlay">
                 <h5 class="overlay-text">${product.productName}</h5>
                 <div class="overlay-stars d-flex align-items-center">
-                    ${generateStars(rating)} <!-- Inject star HTML dynamically -->
+                    ${generateStars(rating)}
                     <span class="overlay-rating ms-2 text-white fw-semibold" 
                           style="font-size: 12px;">(0)</span>
                 </div>

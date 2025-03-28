@@ -3,7 +3,8 @@ function generateStars(rating) {
     const starsHtml = Array.from({ length: 5 }, (_, i) =>
         i < fullStars
             ? '<i class="bi bi-star-fill text-warning"></i>'
-            : '<i class="bi bi-star text-muted"></i>'
+            : '<i class="bi bi-star-fill text-warning"></i>' // Normalde bu şekilde gözükmesi gerekirken örnek proye benzerlik sağlanması amacıyla modifiye edildi
+            // : '<i class="bi bi-star text-muted"></i>'
     ).join("");
     return starsHtml;
 }
