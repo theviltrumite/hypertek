@@ -234,12 +234,6 @@ input[type="search"]::placeholder {
     }
 }
 
-@media (max-width: 576px) {
-    .custom-card {
-        width: 100%;
-    }
-}
-
 .custom-card img.card-img-top {
     border-radius: 10px 10px 0 0;
     transition: filter 0.3s ease-in-out;
