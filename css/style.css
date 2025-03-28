@@ -85,7 +85,7 @@ ul.breadcrumb li a:hover {
 }
 
 .wrapText {
-    font-family: Poppins;
+    font-family: "Poppins", sans-serif;
     font-size: 12px !important;
     font-weight: 700;
 }
