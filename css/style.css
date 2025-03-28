@@ -880,6 +880,12 @@ footer p {
     padding: 10px 30px;
 }
 
+@media screen and (max-width: 576px) {
+    .btn-consent {
+        width: 100%;
+    }
+}
+
 .btn-consent:hover {
     background-color: #555;
     border: none;
